@@ -52,10 +52,10 @@ else
   fi
   
   # check for games disk snapshots
-  gamesDiskSnapshot="$(gcloud compute snapshots list  --format "value(name)" --filter "labels.$GCRLABEL=true labels.latest=true" --quiet)"
-  if [ -n "$gamesDiskSnapshot" ] ; then
-    echo "    Games disk"
-    echo "      snapshot: $gamesDiskSnapshot"
-  fi
+  #gamesDiskSnapshot="$(gcloud compute snapshots list  --format "value(name)" --filter "labels.$GCRLABEL=true labels.latest=true" --quiet)"
+  #if [ -n "$gamesDiskSnapshot" ] ; then
+  #  echo "    Games disk"
+  #  echo "      snapshot: $gamesDiskSnapshot"
+  #fi
 fi
 

@@ -19,6 +19,6 @@ gcloudrig_stop
 gcloudrig_boot_disk_to_image &
 
 # save games snapshot
-gcloudrig_games_disk_to_snapshot &
+#gcloudrig_games_disk_to_snapshot &
 
 wait
